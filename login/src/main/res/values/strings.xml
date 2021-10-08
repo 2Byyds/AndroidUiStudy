@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Login</string>
+    <string name="login_title">快速登录账号</string>
+</resources>
