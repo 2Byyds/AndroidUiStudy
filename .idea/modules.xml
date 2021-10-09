@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/AndroidUiStudy.iml" filepath="$PROJECT_DIR$/.idea/modules/AndroidUiStudy.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/AndroidUiStudy.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/AndroidUiStudy.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/datapickerandtimepicker/AndroidUiStudy.datapickerandtimepicker.iml" filepath="$PROJECT_DIR$/.idea/modules/datapickerandtimepicker/AndroidUiStudy.datapickerandtimepicker.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/login/AndroidUiStudy.login.iml" filepath="$PROJECT_DIR$/.idea/modules/login/AndroidUiStudy.login.iml" />
     </modules>
   </component>
