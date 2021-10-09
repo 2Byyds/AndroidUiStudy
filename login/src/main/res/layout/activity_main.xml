@@ -73,6 +73,7 @@
         android:layout_height="wrap_content"
         android:text="登录即表示您已同意遵守"/>
     <TextView
+        android:id="@+id/protocl"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="#2196F3"

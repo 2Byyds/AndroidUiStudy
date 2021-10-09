@@ -3,6 +3,7 @@ package com.example.login;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.text.method.LinkMovementMethod;
 import android.view.View;
 import android.widget.CheckBox;
 import android.widget.TextView;
@@ -26,5 +27,8 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
+        TextView textView1=findViewById(R.id.protocl);
+        textView1.setText(new BaiDuSpan("《本软件协议条款》"));
+        textView1.setMovementMethod(LinkMovementMethod.getInstance());
     }
 }
