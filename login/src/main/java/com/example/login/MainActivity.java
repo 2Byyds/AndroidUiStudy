@@ -2,6 +2,7 @@ package com.example.login;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.method.LinkMovementMethod;
 import android.view.View;
@@ -24,6 +25,10 @@ public class MainActivity extends AppCompatActivity {
                 if(!checkBox.isChecked()) {
                     ConfirmDialog confirmDialog = new ConfirmDialog(MainActivity.this);
                     confirmDialog.show();
+                }
+                else{
+                    Intent intent=new Intent(MainActivity.this,PhoneLoginActivity.class);
+                    startActivity(intent);
                 }
             }
         });
